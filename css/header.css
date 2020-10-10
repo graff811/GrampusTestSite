@@ -1,0 +1,99 @@
+header {
+    display: block;
+    width: 100%;
+    background-color: #ffffff;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width:100%;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+.top_line {
+    padding-top: 15px;
+    width: 100%;
+}
+.logo_holder{
+    text-align: center;
+    width:280px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+.info_holder {
+    display: flex;
+    flex-direction: column;
+    width: 920px;
+}
+.info {
+    display: inline-flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 50px;
+    align-items: center;
+}
+.number{
+    height: 100%;
+    display:inline-flex;
+    align-items: center;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+.call {
+    display: block;
+    margin-top: 3px;
+    width: 1.5em;
+    height: 1.5em;
+}
+.phone_number{
+    display: block;
+    color: #3b3e43;
+    font-size: 1.8em;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 100%;
+    padding-left: 0.5em;
+}
+.appoinment_button {
+    display: flex;
+    line-height: 100%;
+    background-color: #197d5c;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 0.25em;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    align-items: center;
+    margin-left: 3em;
+    margin-right: 3em;
+    box-shadow: rgba(0, 0, 0, 0.158) 1px 3px 3px;
+}
+
+.app_button_text{
+    display:block;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.bot_line {
+    width:100%;
+}
+
+.social_bar{
+    height: 100%;
+    display:inline-flex;
+    align-items: center;
+}
+.social {
+    display: block;
+    margin-left: 1.5rem;
+    width: 2em;
+    height: 2em;
+}
