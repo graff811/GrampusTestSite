@@ -4,96 +4,124 @@ header {
     background-color: #ffffff;
 }
 .row{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    width:100%;
+    display: inline-flex;
+    width: calc(100% + 20px);
     align-items: stretch;
-    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 .top_line {
     padding-top: 15px;
     width: 100%;
 }
 .logo_holder{
+    position: relative;
     text-align: center;
-    width:280px;
+    width: calc(25% - 10px);
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 15px;
 }
 .info_holder {
+    position: relative;
     display: flex;
     flex-direction: column;
-    width: 920px;
+    width: calc(75% + 10px);
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .info {
     display: inline-flex;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    height: 50px;
+    flex-grow: 1;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    text-align: center;
     align-items: center;
 }
 .number{
     height: 100%;
+    width: 33.33%;
     display:inline-flex;
     align-items: center;
-    margin-left: 1.5em;
-    margin-right: 1.5em;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 .call {
     display: block;
     margin-top: 3px;
-    width: 1.5em;
-    height: 1.5em;
+    width: 16px;
+    height: 16px;
 }
 .phone_number{
     display: block;
     color: #3b3e43;
-    font-size: 1.8em;
+    font-size: 24px;
     outline: none;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
-    line-height: 100%;
     padding-left: 0.5em;
 }
 .appoinment_button {
+    justify-content: center;
     display: flex;
-    line-height: 100%;
-    background-color: #197d5c;
-    color: white;
-    font-size: 1.2em;
-    border-radius: 0.25em;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-family: 'Raleway', sans-serif;
+    width: 33.33%;
+    height: 100%;
     align-items: center;
-    margin-left: 3em;
-    margin-right: 3em;
-    box-shadow: rgba(0, 0, 0, 0.158) 1px 3px 3px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
-
 .app_button_text{
     display:block;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    background-color: #197d5c;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 4px;
+    text-transform: uppercase;
+    box-shadow: rgba(0, 0, 0, 0.158) 1px 3px 3px;
+    padding: 15px 30px;
 }
-
 .bot_line {
     width:100%;
 }
-
 .social_bar{
     height: 100%;
+    width: 33.33%;
     display:inline-flex;
     align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 .social {
     display: block;
-    margin-left: 1.5rem;
-    width: 2em;
-    height: 2em;
+    margin-left: 30px;
+    width: 25px;
+    height: 25px;
+}
+.nav_menu {
+    display: flex;
+    flex-direction: column;
+}
+.list{
+    display:inline-flex;
+}
+.menu_text_holder{
+    display: flex;
+    border-top: 1px solid #e3e6e6;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+.upper_menu_text {
+    width: 100%;
+    padding: 15px 0;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
 }
