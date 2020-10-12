@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/slider.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:&display=swap" >
     <title>Клиника косметологии "Прообраз"- профессиональные врачи косметологи в Твери</title>
@@ -114,30 +115,34 @@
                     </div>
                 </div>
                 <div class="slider_item">
-                    <img src="img/slider_background.png">
+                    <img src="img/scarlet.jpg">
                     <div class="slide_text">
-                        
+
                     </div>
                 </div>
                 <div class="slider_item">
-                    <img src="img/slider_background.png">
+                    <img src="img/look_at_the_sky.jpg">
                     <div class="slide_text">
-                        
+
                     </div>
                 </div>
-            </div>
-            <div class="slider_controls">
-                <a class="prev">
-                    <img class="prev_green" src="img/prev_green.png">
-                    <img class="prev_gray" src="img/prev_green.png">
-                </a>
-                <span class="slider_dots_item"></span>
-                <span class="slider_dots_item"></span>
-                <span class="slider_dots_item"></span>
-                <a class="next">
-                    <img class="next_green" src="img/next_gray.png">
-                    <img class="next_gray" src="img/next_gray.png">
-                </a>
+                <div class="slider_controls">
+                    <div class="wrapper">
+                        <a class="move_button prev" onclick="minusSlide()">
+                            <img class="slider_button_first" src="img/prev_green.svg">
+                            <img class="slider_button_second" src="img/prev_gray.svg">
+                        </a>
+                        <div class="slider_dots">
+                            <span class="slider_dots_item" onclick="currentSlide(1)"></span>
+                            <span class="slider_dots_item" onclick="currentSlide(2)"></span>
+                            <span class="slider_dots_item" onclick="currentSlide(3)"></span>
+                        </div>
+                        <a class="move_button next" onclick="plusSlide()">
+                            <img class="slider_button_first" src="img/next_green.svg">
+                            <img class="slider_button_second" src="img/next_gray.svg">
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
