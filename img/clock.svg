@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="12" viewBox="0 0 12 12">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.4;
+      }
+    </style>
+  </defs>
+  <image id="clock" class="cls-1" width="12" height="12" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAApElEQVQokZWSsQ7CMAxEH1YHhBg6dOADOvQb+AI+me/o1KEDCxtDFxgbdJItRVGAclIW++7i+LJLKeEwYAB6oPXaAszABKwqhOAAXICOOh7AFXiZO5fku59A5xxrfIzS+Vm5R5zBfOat6C174Ba0zQeSjEbgBhyBczQk0OpOhUBjRi03XeSkPdcgZ5191pwlUCja8y+IM0mgBBXKN1EEt/73NYA3OfcnRP+QLDkAAAAASUVORK5CYII="/>
+</svg>

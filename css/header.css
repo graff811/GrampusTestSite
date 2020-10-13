@@ -4,13 +4,6 @@ header {
     width: 100%;
     background-color: #ffffff;
 }
-.row{
-    display: inline-flex;
-    width: calc(100% + 20px);
-    align-items: stretch;
-    margin-left: -10px;
-    margin-right: -10px;
-}
 .top_line {
     padding-top: 15px;
     width: 100%;
