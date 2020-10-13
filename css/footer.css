@@ -1,0 +1,93 @@
+footer{
+    position: relative;
+    width:100%;
+}
+.footer_line{
+    padding: 45px 0 55px;
+    background-color: #00533a;
+}
+.block25 {
+    display: inline-flex;
+    position: relative;
+    align-items: flex-start;
+    padding-right: 10px;
+    padding-left: 10px;
+    width:25%;
+}
+.column_header{
+    color: rgba(255,255,255,.3);
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+footer .nav_menu .nav_menu_element {
+    margin-bottom: 15px;
+}
+.menu_holder{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+footer .nav_menu_element a, p{
+    display:block;
+    font-family: 'Raleway',sans-serif;
+    color: #fff;
+    font-size: 16px;
+}
+.contacts_row{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.img_mini_holder{
+    display:inline-flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 20px;
+
+}
+.footer_menu_mini{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:12px;
+    height: 12px;
+}
+.map{
+    width: 9px;
+    height: 13px;   
+}
+.pochta{
+    width: 12px;
+    height: 10px; 
+}
+footer .nav_menu_element a:hover{
+    text-decoration: underline;
+}
+.creator_line{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0d4433;
+    height: 70px;
+}
+.copyright {
+    display:flex;
+    align-items: center;
+    justify-self: start;
+}
+.copyright p{
+    display:block;
+}
+.footer_row {
+    display: inline-flex;
+    justify-content: space-between;
+}
+.copy_holder{
+    display: inline-flex;
+}
+.copy_img_holder{
+    margin-left: 15px;
+}

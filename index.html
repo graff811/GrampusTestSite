@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:&display=swap" >
+    <title>Клиника косметологии "Прообраз"- профессиональные врачи косметологи в Твери</title>
+</head>
+<body>
+    <header id="header">
+        <div class="top_line">
+            <div class="wrapper">
+                <div class="row">
+                    <div class="logo_holder">
+                        <a class="logo">
+                            <img src="img/logo.png">
+                        </a>
+                    </div>
+                    <div class="info_holder">
+                        <div class="info">
+                            <a class="number block_33" href="tel:89201600330">
+                                <img class="call" src="img/call_phone.png">
+                                <span class="phone_number text_block">8 (920) 160-03-30</span>
+                            </a>
+                            <div class="appoinment_button block_33" href="">
+                                <button type="button" class="app_button_text text_block">Записаться на прием</button>
+                            </div>
+                            <div class="social_bar block_33">
+                                <a class="social vk" href="">
+                                    <img class="icon_img_first" src="img/vk_green.png" />
+                                    <img class="icon_img_second" src="img/vk_gray.png" />
+                                </a>
+                                <a class="social fb" href="">
+                                    <img class="icon_img_first" src="img/facebook_green.png" />
+                                    <img class="icon_img_second" src="img/facebook_gray.png" />
+                                </a>
+                                <a class="social inst" href="">
+                                    <img class="icon_img_first" src="img/instagram_green.png" />
+                                    <img class="icon_img_second" src="img/instagram_gray.png" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="nav_menu">
+                            <ul class ="list">
+                                <li class="menu_text_holder">
+                                    <a class="upper_menu_text text_block">главная</a>
+                                </li>
+                                <li class="menu_text_holder">
+                                    <a class="upper_menu_text text_block">о клинике</a>
+                                </li>
+                                <li class="menu_text_holder">
+                                    <a class="upper_menu_text text_block">услуги</a>
+                                </li>
+                                <li class="menu_text_holder">
+                                    <a class="upper_menu_text text_block">наши работы</a>
+                                </li>
+                                <li class="menu_text_holder">
+                                    <a class="upper_menu_text text_block">цены</a>
+                                </li>
+                                <li class="menu_text_holder">
+                                    <a class="upper_menu_text text_block">отзывы</a>
+                                </li>
+                                <li class="menu_text_holder">
+                                    <a class="upper_menu_text text_block">лицензии</a>
+                                </li>
+                                <li class="menu_text_holder end_holder">
+                                    <a class="upper_menu_text text_block">контакты</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bot_line">
+            <div class="wrapper">
+                <ul class="list">
+                    <li class="menu_text_holder bot">
+                        <a class="downer_menu_text text_block">
+                            <span class="icon">
+                                <img class="icon_img" src="img/face.png">
+                            </span>
+                            эстетическая хирургия</a>
+                    </li>
+                    <li class="menu_text_holder bot">
+                        <a class="downer_menu_text text_block">
+                            <span class="icon">
+                                <img class="icon_img niti" src="img/niti.png">
+                            </span>
+                            нити artos</a>
+                    </li>
+                    <li class="menu_text_holder bot">
+                        <a class="downer_menu_text text_block end_block">
+                            <span class="icon">
+                                <img class="icon_img" src="img/shprits.png">
+                            </span>
+                            инъекционная косметология</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main id="main" class="content">
+        <div class="slider">
+            <div class="slider_wrapper">
+                <div class="slider_item">
+                    <img src="img/slider_background.png">
+                    <div class="slide_text">
+
+                    </div>
+                </div>
+                <div class="slider_item">
+                    <img src="img/scarlet.jpg">
+                    <div class="slide_text">
+
+                    </div>
+                </div>
+                <div class="slider_item">
+                    <img src="img/look_at_the_sky.jpg">
+                    <div class="slide_text">
+
+                    </div>
+                </div>
+                <div class="slider_controls">
+                    <div class="wrapper">
+                        <a class="move_button prev" onclick="minusSlide()">
+                            <img class="slider_button_first" src="img/prev_green.svg">
+                            <img class="slider_button_second" src="img/prev_gray.svg">
+                        </a>
+                        <div class="slider_dots">
+                            <span class="slider_dots_item" onclick="currentSlide(1)"></span>
+                            <span class="slider_dots_item" onclick="currentSlide(2)"></span>
+                            <span class="slider_dots_item" onclick="currentSlide(3)"></span>
+                        </div>
+                        <a class="move_button next" onclick="plusSlide()">
+                            <img class="slider_button_first" src="img/next_green.svg">
+                            <img class="slider_button_second" src="img/next_gray.svg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="temp_content">
+            <img src="img/Rectangle 7.png">
+        </div>
+    </main>
+
+    <footer id="footer">
+        <div class="footer_line">
+            <div class="wrapper">
+                <div class="row">
+                    <div class="logo_holder block25">
+                        <a class="logo" href="/">
+                            <img src="img/logo_white.png">
+                        </a>
+                    </div>
+                    <div class="menu_holder block25">
+                        <div class="column_header">Информация</div>
+                        <ul class="nav_menu">
+                            <li class="nav_menu_element">
+                                <a href="/">О клинике</a>
+                            </li>
+                            <li class="nav_menu_element">
+                                <a href="/">Услуги</a>
+                            </li>
+                            <li class="nav_menu_element">
+                                <a href="/">Наши работы</a>
+                            </li>
+                            <li class="nav_menu_element">
+                                <a href="/">Цены</a>
+                            </li>
+                            <li class="nav_menu_element">
+                                <a href="/">Отзывы</a>
+                            </li>
+                            <li class="nav_menu_element">
+                                <a href="/">Лицензии</a>
+                            </li>
+                            <li class="nav_menu_element">
+                                <a href="/">Контакты</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="menu_holder block25">
+                        <div class="column_header">Виды деятельности</div>
+                        <ul class="nav_menu">
+                            <li class="nav_menu_element">
+                                <a href="/">Эстетическая хирургия</a>
+                            </li>
+                            <li class="nav_menu_element">
+                                <a href="/">Нити APTOS</a>
+                            </li>
+                            <li class="nav_menu_element">
+                                <a href="/">Инъекционная косметология</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="contacts_holder menu_holder block25">
+                        <div class="column_header">Контакты</div>
+                            <div class="contacts_row phone nav_menu_element">
+                                <div class="img_mini_holder">
+                                    <img class="footer_menu_mini" src="img/call-answer.png">
+                                </div>
+                                <a href="tel:89201600330">+7 (920) 160-0330</a>
+                            </div>
+                            <div class="contacts_row address nav_menu_element">
+                                <div class="img_mini_holder">
+                                    <img class="footer_menu_mini map" src="img/maps-and-flags.png">
+                                </div>
+                                <p class="footer_text">г. Тверь, Пожарная площадь, д. 1</p>
+                            </div>
+                            <div class="contacts_row email nav_menu_element">
+                                <div class="img_mini_holder">
+                                    <img class="footer_menu_mini pochta" src="img/shape.png">
+                                </div>
+                                <a href="mailto:9201600330@mail.ru">9201600330@mail.ru</a>
+                            </div>
+                            <div class="contacts_row clocks nav_menu_element">
+                                <div class="img_mini_holder">
+                                    <img class="footer_menu_mini" src="img/clock.png">
+                                </div>
+                                <p class="footer_text">пн-сб: 10:00 - 20:00<br>
+                                    вс - выходной</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="creator_line">
+            <div class="wrapper">
+                <div class="row footer_row">
+                    <div class="copyright">
+                        <p>© 2020 | OZ Pro Obraz</p>  
+                    </div>
+                    <div class="copy_holder">
+                        <div class="copyright">
+                            <p>Разработка сайта</p>  
+                        </div>
+                        <div class="copy_img_holder">
+                            <img src="img/footer_logo.png" class="copy_logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="http://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
